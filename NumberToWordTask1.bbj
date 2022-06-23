@@ -1,0 +1,78 @@
+
+input "Enter The Number :" ,X
+ while X>0
+	r = mod(x,10)
+	print "r= " + str(r)
+	a = int(a*10+r)
+	print "a= " + str(a)
+	x = int(x/10)
+	print "x= " + str(x)
+wend 
+
+while a>0
+	r = mod(a,10)
+	if r = 0 then 
+	      print "Zero"
+	endif
+	     
+	r = mod(a,10)
+	if r = 1 then 
+	      print "One"
+	endif
+	
+	r = mod(a,10)
+	if r = 2 then 
+	      print "Two"
+	endif
+	
+	r = mod(a,10)
+	if r = 3 then 
+	      print "Three"
+	endif
+	
+	r = mod(a,10)
+	if r = 4 then 
+	      print "Four"
+	endif
+	
+	r = mod(a,10)
+	if r = 5 then 
+	      print "Five"
+	endif
+	
+	r = mod(a,10)
+	if r = 6 then 
+	      print "Six"
+	endif
+	
+	r = mod(a,10)
+	if r = 7 then 
+	      print "Seven"
+	endif
+	
+	r = mod(a,10)
+	if r = 8 then 
+	      print "Eight"
+	endif
+	
+	r = mod(a,10)
+	if r = 9 then 
+	      print "Nine"
+	endif
+	
+	
+	r = mod(a,10)
+	if r = 10 then 
+	      print "Ten"
+	endif
+	
+	
+
+	
+	
+		a=int(a/10)
+	
+wend
+
+
+

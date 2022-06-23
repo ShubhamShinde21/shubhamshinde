@@ -1,0 +1,257 @@
+r
+
+input "Enter Number : ",x
+
+r = mod(x,10)
+	if r = 0 then
+	a$ = ""
+	endif
+	if r = 1 then
+		d$ = "one "
+	endif
+	if r = 2 then
+		d$ = "two "
+	endif
+	if r = 3 then
+		d$ = "three "
+	endif
+	if r = 4 then
+		d$ = "four "
+	endif
+	if r = 5 then
+		d$ = "five "
+	endif
+	if r = 6 then
+		d$ = "six "
+	endif
+	if r = 7 then
+		d$ = "seven "
+	endif
+	if r = 8 then
+		d$ = "eight "
+	endif
+	if r = 9 then
+		d$ = "nine "
+	endif
+	x = int(x/10)
+	
+	
+	
+	
+	r = mod(x,10)
+	if r = 1 then
+		g$ = "Ten "
+	endif
+	if r = 2 then
+		g$ = "twenty "
+	endif
+	if r = 3 then
+		g$ = "thirty "
+	endif
+	if r = 4 then
+		g$ = "forty "
+	endif
+	if r = 5 then
+		g$ = "fifty "
+	endif
+	if r = 6 then
+		g$ = "sixty "
+	endif
+	if r = 7 then
+		g$ = "seventy "
+	endif
+	if r = 8 then
+		g$ = "eighty "
+	endif
+	if r = 9 then
+		g$ = "ninety "
+	endif
+	
+	x = int(x/10)
+	
+	
+	
+	r = mod(x,10)
+	if r = 0 then
+		a$ = ""
+	endif
+	if r = 1 then
+		a$ = "One Hundred "
+	endif
+	if r = 2 then
+		a$ = "Two Hundred "
+	endif
+	if r = 3 then
+		a$ = "Three Hundred "
+	endif
+	if r = 4 then
+		a$ = "Four Hundred "
+	endif
+	if r = 5 then
+		a$ = "Five Hundred "
+	endif
+	if r = 6 then
+		a$ = "Six Hundred "
+	endif
+	if r = 7 then
+		a$ = "Seven Hundred "
+	endif
+	if r = 8 then
+		a$ = "Eight Hundred "
+	endif
+	if r = 8 then
+		a$ = "Nine Hundred "
+	endif
+	
+	x = int(x/10)
+	
+	
+	
+	r = mod(x,10)
+	if r = 0 then
+		e$ = ""
+	endif
+	if r = 1 then
+		e$ = "One Thousand "
+	endif
+	if r = 2 then
+		e$ = "Two Thousand "
+	endif
+	if r = 3 then
+		e$ = "Three Thousand "
+	endif
+	if r = 4 then
+		e$ = "Four Thousand "
+	endif
+	if r = 5 then
+		e$ = "Five Thousand "
+	endif
+	if r = 6 then
+		e$ = "Six Thousand "
+	endif
+	if r = 7 then
+		e$ = "Seven Thousand "
+	endif
+	if r = 8 then
+		e$ = "Eight Thousand "
+	endif
+	if r = 8 then
+		e$ = "Nine Thousand "
+	endif
+	
+	x = int(x/10)
+	
+	
+	
+	
+	r = mod(x,10)
+	if r = 0 then
+		f$ = ""
+	endif
+	if r = 1 then
+		f$ = "One Lack "
+	endif
+	if r = 2 then
+		f$ = "Two Lack "
+	endif
+	if r = 3 then
+		f$ = "Three Lack "
+	endif
+	if r = 4 then
+		f$ = "Four Lack "
+	endif
+	if r = 5 then
+		f$ = "Five Lack "
+	endif
+	if r = 6 then
+		f$ = "Six Lack "
+	endif
+	if r = 7 then
+		f$ = "Seven Lack "
+	endif
+	if r = 8 then
+		f$ = "Eight Lack "
+	endif
+	if r = 8 then
+		f$ = "Nine Lack "
+	endif
+	
+	x = int(x/10)
+	
+	
+	
+	r = mod(x,10)
+	if r = 0 then
+		h$ = ""
+	endif
+	if r = 1 then
+		h$ = "One Hundred "
+	endif
+	if r = 2 then
+		h$ = "Two Hundred "
+	endif
+	if r = 3 then
+		h$ = "Three Hundred "
+	endif
+	if r = 4 then
+		h$ = "Four Hundred "
+	endif
+	if r = 5 then
+		h$ = "Five Hundred "
+	endif
+	if r = 6 then
+		h$ = "Six Hundred "
+	endif
+	if r = 7 then
+		h$ = "Seven Hundred "
+	endif
+	if r = 8 then
+		h$ = "Eight Hundred "
+	endif
+	if r = 8 then
+		h$ = "Nine Hundred "
+	endif
+	
+	x = int(x/10)
+	
+	
+	
+	r = mod(x,10)
+	if r = 0 then
+		b$ = ""
+	endif
+	if r = 1 then
+		b$ = "One Million "
+	endif
+	if r = 2 then
+		b$ = "Two Million "
+	endif
+	if r = 3 then
+		b$ = "Three Million "
+	endif
+	if r = 4 then
+		b$ = "Four Million "
+	endif
+	if r = 5 then
+		b$ = "Five Million "
+	endif
+	if r = 6 then
+		b$ = "Six Million "
+	endif
+	if r = 7 then
+		b$ = "Seven Million "
+	endif
+	if r = 8 then
+		b$ = "Eight Million "
+	endif
+	if r = 8 then
+		b$ = "Nine Million "
+	endif
+	
+	
+	
+	
+	print b$+h$+f$+e$+a$+g$+d$
+	
+	
+	

@@ -1,0 +1,162 @@
+input "Enter Number : ",x
+
+
+r=mod(x,10)
+
+
+	if r = 0 then 
+	      a$= ""
+	endif
+	
+	
+	if r = 1 then 
+	      a$= "One"
+	endif
+
+
+	if r = 2 then 
+	      a$= "Two"
+	endif
+
+
+	if r = 3 then 
+	      a$= "Three"
+	endif
+
+
+	if r = 4 then 
+	      a$= "Four"
+	endif
+
+
+	if r = 5 then 
+	      a$= "Five"
+	endif
+
+
+	if r = 6 then 
+	      a$= "Sixth"
+	endif
+
+
+	if r = 7 then 
+	      a$= "Seven"
+	endif
+
+
+	if r = 8 then 
+	      a$= "Eight"
+	endif
+
+
+	if r = 9 then 
+	      a$= "Nine"
+	endif
+	
+x=int(x/10)	
+	
+	r = mod(x,10)
+	if r = 1 then 
+	      f$= "Ten"
+	endif
+
+
+	if r = 2 then 
+	      f$= "Twenty"
+	endif
+
+
+	if r = 3 then 
+	      f$= "Thirty"
+	endif
+
+
+	if r = 4 then 
+	      f$= "Fourty"
+	endif
+
+
+	if r = 5 then 
+	      f$= "Fifty"
+	endif
+
+
+	if r = 6 then 
+	      f$= "Sixty"
+	endif
+
+
+	if r = 7 then 
+	      f$= "Seventy"
+	endif
+
+
+	if r = 8 then 
+	      f$= "Eighty"
+	endif
+
+
+	if r = 9 then 
+	      f$= "Ninety"
+	endif
+	
+	X=int(X/10)
+	
+	
+	
+	r = mod(X,10)
+	
+	if r = 1 then 
+	      g$= ""
+	endif	
+	
+	if r = 1 then 
+	      g$= "One Hundred"
+	endif
+
+
+	if r = 2 then 
+	      g$= "Two Hundred"
+	endif
+
+
+	if r = 3 then 
+	      g$= "Three Hundred"
+	endif
+
+
+	if r = 4 then 
+	      g$= "Four Hundred"
+	endif
+
+
+	if r = 5 then 
+  g$= "Five Hundred"
+	endif
+
+
+	if r = 6 then 
+	      g$= "Six Hundred"
+	endif
+
+
+	if r = 7 then 
+	      g$= "Seven Hundred"
+	endif
+
+	if r = 8 then 
+	      g$= "Eight Hundred"
+	endif
+
+
+	if r = 9 then 
+	      g$= "Nine Hundred
+	      "
+	endif
+	
+	
+print g$+f$+a$	
+	
+	
+	
+	
